@@ -1,0 +1,53 @@
+.Footer{
+    padding: 4rem 6rem;
+    background-color: black;
+    color: white;
+}
+.Top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Top i{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.Top i:hover{
+    color: aqua;
+}
+
+.Bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Bottom div{
+    display: flex;
+    flex-direction: column;
+}
+.Bottom h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+.Bottom a{
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+@media screen and (max-width:850px){
+    .Footer{
+        padding: 4rem 2rem;
+    }
+    .Footer i{
+        margin: 1rem 1rem 0 0;
+    }
+.Bottom div{
+        width: 50%;
+    }
+}

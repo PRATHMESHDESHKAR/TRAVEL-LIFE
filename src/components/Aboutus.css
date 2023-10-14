@@ -1,0 +1,18 @@
+.Aboutdata{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+
+.Aboutdata h1{
+    padding-bottom: 1rem;
+}
+
+.Aboutdata p{
+    padding-bottom: 2rem;
+}
+
+@media screen and(max-width: 850px){
+    .Aboutdata{
+        margin: 4rem 2rem;
+    }
+}
